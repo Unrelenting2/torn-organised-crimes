@@ -2,7 +2,7 @@ Torn Organised Crimes
 =====================
 Initiate Torn organised crimes easily.
 
-This is a userscript for [Torn](http://www.torn.com).
+This is a userscript for [Torn](http://www.torn.com/1863650).
 
 Features:
 ---------
