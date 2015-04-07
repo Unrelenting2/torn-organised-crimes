@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Organised Crime
 // @namespace Organised Crime
-// @version 0.1
+// @version 0.1.1
 // @description Easy initiation of Torn organised crimes.
 // @author mrmuskrat [1863650]
 // @include *.torn.com/factions.php?step=your*
@@ -46,7 +46,7 @@ function crimes() {
                     var btn = $(bwrap).length ? $(bwrap).find('span.btn') : '';
 					if ( $(status).hasClass('t-green') ) {
                         if ( $(bwrap).length ) {
-                            var newBtn = bwrap.clone();
+                            var newBtn = $(bwrap).clone();
                             newBtn.click( function() { $(btn).trigger( 'click' ); } );
                             $(status).replaceWith( newBtn );
                         }
